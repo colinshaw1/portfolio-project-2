@@ -1,0 +1,22 @@
+body{
+    text-align: center;
+    margin: auto;
+    
+    font-family: sans-serif;
+    
+}
+
+.resultBox {
+    padding: 20px;
+    margin: 20px auto;
+    background-color: rgb(48, 25, 52);
+    border-radius: 30px;
+  }
+  p {
+    padding-bottom: 10px;
+  }
+  
+  .result p:last-of-type {
+    font-size: 1.5em;
+  
+  }
