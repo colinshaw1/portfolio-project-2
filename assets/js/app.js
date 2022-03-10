@@ -7,7 +7,7 @@ var computerSelection;
  * An if statment will be used to go through all possible outcomes. 
  */
 
- function checkWinner(computerChoice) {
+function checkWinner(computerChoice) {
     if (playerSelection === computerChoice) {
         return "Computer has chosen " + computerSelection + "this round is a tie!";
     } else if (playerSelection === "rock") {
@@ -62,3 +62,32 @@ var computerSelection;
         }
     }
 }
+
+//event listener for when the dom content loads 
+document.addEventListener("DOMContentLoaded", function () {
+    let buttons = document.querySelectorAll("button");
+    for (let button of buttons) {
+        button.addEventListener("click", function () {
+            playerSelection = this.id;
+            computerChoice = Math.floor(Math.random() * 5);//Math.random used to determin the difficulty of the game
+            //switch statment to break when choice is selected
+            switch (computerChoice) {
+                case 0:
+                    computerChoice = "rock";
+                    break;
+                case 1:
+                    computerChoice = "paper";
+                    break;
+                case 2:
+                    computerChoice = "scissors";
+                    break;
+                case 3:
+                    computerChoice = "lizard";
+                    break;
+                case 4:
+                    computerChoice = "spock";
+                    break;
+            }
+        })
+    }
+})
