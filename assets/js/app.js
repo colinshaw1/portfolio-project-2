@@ -4,10 +4,13 @@ const computerChoice = document.getElementById("computer-choice");
 const computerScoreElement = document.getElementById("computer-score");
 const playerScoreElement = document.getElementById("player-score");
 const result = document.getElementById("results-choice");
+const winner = document.getElementById("winner");
 
 let results;
 let playerScore = 0;
 let computerScore = 0;
+let numberOfTries = 0;
+const maxTries = 10;
 
 const CHOICES = {
     rock: 'rock',
@@ -80,6 +83,11 @@ const getRandomProperty = () => {
     return CHOICES[keys[keys.length * Math.random() << 0]]
 }
 
+/**
+ * 
+ * @param result
+ * Update the score when a round is over
+ */
 const updateScore = (result) => {
     console.log('result.contains: ', result.includes('Computer'));
     
@@ -93,18 +101,53 @@ const updateScore = (result) => {
      playerScoreElement.innerHTML = playerScore.toString();
 }
 
-/*
- * Declareing function for generating the computer choice and the difficulty
+/**
+ * Reset the game when the max number of tries is reached
+ */
+const resetGame = () => {
+    if(playerScore > computerScore) {
+        winner.innerHTML = 'Congratulations you won! Make a selection to start again'
+    }
+    else if(playerScore < computerScore) {
+        winner.innerHTML = 'Unlucky you lost! Make a selection to start again'
+    }
+    else if(playerScore === computerScore) {
+        winner.innerHTML = 'It\'s a tie. Make a selection to start again'
+    }
+
+    playerScore = 0;
+    computerScore = 0;
+    numberOfTries = 0;
+    computerScoreElement.innerHTML = computerScore.toString();
+    playerScoreElement.innerHTML = playerScore.toString();
+}
+
+/**
+ * 
+ * @returns {randomProperty}
  */
 const generateComputerChoice = () => {
     const randomProperty = getRandomProperty();
     return computerChoice.innerHTML = randomProperty
 }
 
+
+/**
+ * 
+ * @param id
+ * control the game when a user clicks a button.
+ */
 const onButtonClick = (id) => {
-    const aiChoice = generateComputerChoice();
-    playerChoice.innerHTML = id.toUpperCase();
-    computerChoice.innerHTML = aiChoice.toUpperCase();
-    const result = getResults(id.toLowerCase(), aiChoice.toLowerCase());
-    updateScore(result);
+    if(numberOfTries <= maxTries){
+        winner.innerHTML = '';
+        const aiChoice = generateComputerChoice();
+        playerChoice.innerHTML = id.toUpperCase();
+        computerChoice.innerHTML = aiChoice.toUpperCase();
+        const result = getResults(id.toLowerCase(), aiChoice.toLowerCase());
+        updateScore(result);
+        numberOfTries++;
+    }
+    else {
+        resetGame();
+    }
 }
