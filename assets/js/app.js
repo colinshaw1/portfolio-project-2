@@ -1,7 +1,7 @@
 // declare variables 
 const playerChoice = document.getElementById("player-choice");
 const computerChoice = document.getElementById("computer-choice");
-const result = document.getElementById("results");
+const result = document.getElementById("results-choice");
 //using a query selector to get all possible choices from buttons
 const choices = document.querySelectorAll("button");
 
