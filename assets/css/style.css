@@ -1,3 +1,4 @@
+/*adding color, font size and styling to the game*/
 body{
     text-align: center;
     margin: auto;
@@ -6,21 +7,17 @@ body{
     color: rgb(224, 224, 224);
 }
 
-.resultBox {
-    padding: 20px;
-    margin: 20px auto;
-    background-color: rgb(48, 25, 52);
-    border-radius: 30px;
-  }
+/* Adding padding to the paragraph to move the buttons down slightly*/
   p {
     padding-bottom: 10px;
   }
   
+  /*Add font size of 1.5rem to results when they are generated*/
   .result p:last-of-type {
     font-size: 1.5em;
     font-family: sans-serif;
   }
-
+/* Add style to buttons*/
   button{
     width: 75px;
     height: 45px;
