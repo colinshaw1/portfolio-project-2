@@ -4,10 +4,31 @@ For my Milestone project 2 for Code Institute Diploma in Software Development, I
 
 Please click on the link to enjoy a game of Rock, Paper, Scissors, Lizard, Spock game click here <https://colinshaw1.github.io/portfolio-project-2/.>
 
+Screenshots of Game
+--
+MockUp generator to show the game on all devices
+
+![image](https://user-images.githubusercontent.com/56481190/158012781-b55c9036-19d4-44f0-b174-f0b88115882d.png)
+
+Game homscreen
+
+![image](https://user-images.githubusercontent.com/56481190/158012848-99ed2052-e5a6-4893-881b-d7368a916c0f.png)
+
+After one selection
+
+![image](https://user-images.githubusercontent.com/56481190/158012873-2c01a118-1d96-44d0-b60c-82ac9f0c050b.png)
+
+When game is a tie
+
+![image](https://user-images.githubusercontent.com/56481190/158012896-9bcfac3d-a976-4bc4-bc38-a3d05ef212ba.png)
+
+When the game has a winner 
+
+![image](https://user-images.githubusercontent.com/56481190/158012928-ebb3af1b-3749-4e3f-86aa-8c87381ccc03.png)
 
 Who is this website intended for?
 --
-Breath is for anybody looking to improve their well being by learning meditation, breathing techniques or exercises to help decrease stress, anxiety and build up a stronger immune system. You will learn this from the world-leading experts and applications. 
+
 
 Owner
 --
