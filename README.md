@@ -58,36 +58,88 @@ User Experience 5 Planes
 
 Strategy Plane
 
+The Rock, Paper, Scissors, Lizard, Spock game was designed to make an easy to use interactive game for all ages to enjoy. The game page is clear and easy to follow for anyone to play. 
 
+Main action of the game is create a fun interactive game which is easy and fun to play. 
 
 Scope Plane
 
+Features include:
+•	Created in HTML, CSS and JavaScript
 
+•	5 clickable buttons to control game
+
+• Went with the less is more approach for this game	
 
 Structure Plane
 
+This game consits of one page. The game page is easy to nagivate and understand.
+
+Game Page
+The game page constits of a h1 heading with the title, a logo showing possible outcomes of player chocies, 5 clickable buttons that control the game and restarting the game, a choice area where the player, computer and results are printed when a selction has been made, and then a score area where the player & computer score is incremented to determine the winner which will be printed once the game limit of 10 tries has been reached.
 
 Skeleton Plane
 
+Wireframes
 
 
 Surface Plane
 
- 
+Colours
+body
+    background-color: rgb(39, 41, 68);
+    color: rgb(224, 224, 224);
+button
+    color: rgb(224, 224, 224);
+    background: rgb(45, 117, 96);
+    
+Fonts
+    font-family: sans-serif;
+    
 Features
 --
 
+Features include:
+•	Created in HTML, CSS and JavaScript
 
+•	5 clickable buttons to control game
+
+• Went with the less is more approach for this game	
+
+Future
+
+• Use cleaner more percise Javascript and try use less line of code
+
+• Use symbols to click for the buttons
 
 Technologies used
 --
 
+• HTML for markup
 
+• CSS for style
+
+• JavaScript o implement complex features and make the game interactive
+
+• Github for storing files, files and deployment 
+
+• Gitpod for design and markup
 
 
 Resources
 --
 
+• Code institute for material and ideas
+
+• Geeks for Geeks for information and ideas 
+ 
+• W3 Schools for information and ideas
+
+• Slack for inspiration
+
+• YouTube for tutorials
+
+• My mentor Spencer Barbell who was very helpful and helped kick me into gear and think logically
 
 Testing
 --
