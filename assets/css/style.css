@@ -5,6 +5,7 @@ body{
     font-family: sans-serif;
     background-color: rgb(39, 41, 68);
     color: rgb(224, 224, 224);
+    height: 100vh;
 }
 
 /* Adding padding to the paragraph to move the buttons down slightly*/
