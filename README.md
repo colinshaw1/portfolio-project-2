@@ -93,13 +93,19 @@ Surface Plane
 
 Colours
 body
+
     background-color: rgb(39, 41, 68);
+    
     color: rgb(224, 224, 224);
+    
 button
+
     color: rgb(224, 224, 224);
+    
     background: rgb(45, 117, 96);
     
 Fonts
+
     font-family: sans-serif;
     
 Features
