@@ -47,10 +47,15 @@ User Experience
 --
 
 Game players/users
+
 • As a player you will be able to navigate throughout the game page easily as it is all set out clearly.
+
 • As a player you will select an option rock, paper, scissors, lizard or Spock by clicking on one of the five buttons to start the game.
+
 • Once the button is clicked you will see the computer's result vs the player's result and a score incrementation from this selection.
+
 • This process is repeated till the best out of 10 tries is decided.
+
 • Once a match-winner is declared click a selection again to restart the game. 
 
 User Experience 5 Planes
@@ -65,6 +70,7 @@ The main action of the game is to create a fun interactive game that is easy and
 Scope Plane
 
 Features include:
+
 •	Created in HTML, CSS and JavaScript
 
 •	5 clickable buttons to control the game
@@ -100,9 +106,10 @@ Features
 --
 
 Features include:
-•	Created in HTML, CSS and JavaScript
 
-•	5 clickable buttons to control the game
+• Created in HTML, CSS and JavaScript
+
+• 5 clickable buttons to control the game
 
 • Went with the less is more approach for this game	
 
