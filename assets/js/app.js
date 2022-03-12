@@ -13,7 +13,7 @@ let numberOfTries = 0;
 const maxTries = 10; //set max tries to 10 so once a score of 10 is reached the game will reset 
 
 /***
- * declare CHOICES for each selection to make it easier and tidier for declaring them 
+ * declare CHOICES for each selection and hold them in Choices to make it easier and tidier for declaring them and calling them
  */
 const CHOICES = {
     rock: 'rock',
