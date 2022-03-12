@@ -144,7 +144,9 @@ Resources
 Testing
 --
 
+Validated with W3C Jigsaw, HTML validator and JavaScript in JSHint wiht no erros. 
 
+Tested on iPhone, Samsung, iPad and desktop. Checked in Google chrome, firefox and safari.
 
 Version Control
 --
