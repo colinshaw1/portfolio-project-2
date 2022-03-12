@@ -26,22 +26,32 @@ When the game has a winner
 
 ![image](https://user-images.githubusercontent.com/56481190/158012928-ebb3af1b-3749-4e3f-86aa-8c87381ccc03.png)
 
-Who is this website intended for?
+Who is this Game intended for?
 --
 
+This game is intented for everybody and this game is easy and interactive and intented for all ages. You can swithc off and enjoy some fun while playing the Rock, Paper, Scissors, Lizard, Spock game
 
 Owner
 --
 
- 
+The owner of this game is Colin Shaw. The goal is to help people swtich off and enjoy a fun interactive game.
 
-What does the website do?
+What does the game do?
 --
 
+The game is an varient of the classic game Rock, paper and scissors generally used to decide something. In the Rock, Paper, Scissors, Lizard, Spock game you have two more options lizard and spock. 
+
+This game came from the show the Big Bang Throry and here are the rules expalined by Sheldon "Scissors cuts paper, paper covers rock, rock crushes lizard, lizard poisons Spock, Spock smashes scissors, scissors decapitates lizard, lizard eats paper, paper disproves Spock, Spock vaporizes rock, and as it always has, rock crushes scissors."
 
 User Experience
 --
 
+Game players/users
+• As a player you will be able to naviagte throught the game page easily as it is all set out cleary.
+• As a player you will select an option rock, paper, scissors, lizard or spock by clicking on one of the five buttons to start the game.
+• Once button is clicked you will see the computers result vs the players result and a score incremention from this selection.
+• This process is repeated till the best out of 10 tries is decided.
+• Once a match winner is declared click a selction again to restart the game. 
 
 User Experience 5 Planes
 --
